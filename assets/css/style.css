@@ -1,0 +1,26 @@
+body{
+	background-image: url("../images/fightarea3.jpg");
+	background-size: cover;
+	/* height: 50em; */
+	background-repeat: no-repeat;
+}
+
+header{
+	background-color: black;
+}
+
+.wrapper{
+	font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+.fighter{
+	background-color: yellow;
+	border: 3px solid red;
+	width: 45%;
+	margin: 3px;
+}
+
+p{
+	font-size: 20px;
+}
+

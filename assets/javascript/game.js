@@ -57,21 +57,18 @@ var raptor = {
 var fighters = [alan, spitter, ellie, raptor];
 
 for (var i = 0; i < fighters.length; i++) {
-	$(".hp").append(fighters[i].hp);
+	var health = $(".hp");
+	health[i].append(fighters[i].hp);
 }
 
 $(document).ready(function() {
 
-
-	
-	/*var playerChar = [];
-
 	$(document).on("click", ".fighter", function(){
-		playChar=fighters.indexOf(i);  
-		console.log(playChar);
-		$("#player").append(playChar);
+		playerChar=fighters[0];  
+		console.log(playerChar);
+		$("#player").append(playerChar);
 	});
 
-*/
+
 	
 })

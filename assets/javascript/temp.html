@@ -1,0 +1,46 @@
+var character={
+	grow: function(){
+		var fighterDiv = $("<div>");
+		fighterDiv.addClass("fighter col-xs-12 col-sm-5 text-center");
+		$("#choose").appendChild(characterDiv);
+		
+		var named = $("<p>");
+		named.addClass("name");
+		
+		var pic = $("<img>");
+		pic.addClass("img-responsive");
+		pic.attr("height", "200");
+		pic.attr("width", "300");
+
+		var healthPoints = $("<p>");
+		healthPoints.addClass("hp");
+
+		fighterDiv.append(named);
+		fighterDiv.append(pic);
+		fighterDiv.append(healthPoints);
+	}
+}
+
+var characterDiv = grow();
+
+								<div class = "fighter col-xs-12 col-sm-5 text-center" id = "alan 0">
+									<p class= "name"></p>
+									<img src="assets/images/alan.jpg" class = "img-responsive" height = "200" width = "300">
+									<p class="hp"></p>
+								</div>
+								<div class = "fighter col-xs-12 col-sm-5 text-center" id = "spitter 1">
+									<p class= "name"></p>
+									<img src="assets/images/spitter.jpg" class = "img-responsive" height = "200" width = "300">
+									<p class = "hp"></p>
+								</div>
+								<div class = "fighter col-xs-12 col-sm-5 text-center" id = "ellie 2">
+									<p class= "name"></p>
+									<img src="assets/images/ellie.jpg" class = "img-responsive" height = "200" width = "300">
+									<p class="hp"></p>
+								</div>
+								<div class = "fighter col-xs-12 col-sm-5 text-center" id = "raptor 3">
+									<p class= "name"></p>
+									<img src="assets/images/raptor.jpg" class = "img-responsive" height = "200" width = "300">
+									<p class="hp"></p>
+								</div> -->
+	

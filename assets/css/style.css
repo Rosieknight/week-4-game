@@ -1,7 +1,6 @@
 body{
 	background-image: url("../images/fightarea3.jpg");
 	background-size: cover;
-	/* height: 50em; */
 	background-repeat: no-repeat;
 }
 
@@ -18,6 +17,12 @@ header{
 	border: 3px solid red;
 	width: 45%;
 	margin: 3px;
+}
+
+.fighter img{
+	border: 2px solid black;
+	height: 10em;
+	z-index: 3;
 }
 
 p{

@@ -8,10 +8,10 @@ var alan = {
 	ca: 7,   /*CA is Counter Attack*/
 	id: "alan", /*ID is actually the photo name.*/
 	attack: function(){
-		this.ap = this.ap + 5;
+		this.ap = this.ap + 4;
 	},
 	reset: function(){
-		this.ap = 5;
+		this.ap = 4;
 		this.hp = 120;
 	},
 };
@@ -23,10 +23,10 @@ var spitter = {
 	ca: 10,
 	id: "spitter",
 	attack: function(){
-		this.ap = this.ap + 3;
+		this.ap = this.ap + 5;
 	},
 	reset: function(){
-		this.ap = 4;
+		this.ap = 5;
 		this.hp = 110;
 	},
 };
@@ -38,7 +38,7 @@ var ellie = {
 	ca: 9,
 	id: "ellie",
 	attack: function(){
-		this.ap = this.ap + 4;
+		this.ap = this.ap + 3;
 	},
 	reset: function(){
 		this.ap = 3;

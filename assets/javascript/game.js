@@ -117,7 +117,7 @@ function newEnemy(){
 }
 
 
-$(function() {
+$(function() { /*According to jQuery's API, this is preferred now.*/
 	
 	options();
 	

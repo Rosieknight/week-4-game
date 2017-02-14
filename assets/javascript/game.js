@@ -117,7 +117,7 @@ function newEnemy(){
 }
 
 
-$("document").ready(function() {
+$(function() {
 	
 	options();
 	

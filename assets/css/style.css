@@ -12,20 +12,25 @@ header{
 	font-family: 'Tenali Ramakrishna', sans-serif;
 }
 
+button{
+	font-size: 20px !important;
+}
+
+#messages{
+	color:white;
+	background-color: rgba(0,0,0,.3);
+}
+
 .fighter{
 	background-color: yellow;
 	border: 3px solid red;
 	width: 45%;
 	margin: 3px;
+	font-size:20px;
 }
 
 .fighter img{
 	border: 2px solid black;
-	height: 10em;
-	z-index: 3;
 }
 
-p{
-	font-size: 20px;
-}
 

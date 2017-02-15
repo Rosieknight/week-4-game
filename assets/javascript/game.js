@@ -3,7 +3,7 @@ var losses =0;
 
 var alan = {
 	name: "Dr. Alan Grant",
-	hp: 120, /*HP is Health Points*/
+	hp: 130, /*HP is Health Points*/
 	ap: 4,   /*AP is Attack Power*/
 	ca: 7,   /*CA is Counter Attack*/
 	id: "alan", /*ID is actually the photo name.*/
@@ -12,13 +12,13 @@ var alan = {
 	},
 	reset: function(){
 		this.ap = 4;
-		this.hp = 120;
+		this.hp = 130;
 	},
 };
 
 var spitter = {
 	name: "Dilophosaurus",
-	hp: 110,
+	hp: 115,
 	ap: 5,
 	ca: 10,
 	id: "spitter",
@@ -27,7 +27,7 @@ var spitter = {
 	},
 	reset: function(){
 		this.ap = 5;
-		this.hp = 110;
+		this.hp = 115;
 	},
 };
 
@@ -42,13 +42,13 @@ var ellie = {
 	},
 	reset: function(){
 		this.ap = 3;
-		this.hp = 130;
+		this.hp = 140;
 	},
 };
 
 var raptor = {
 	name: "Velociraptor",
-	hp: 150,
+	hp: 165,
 	ap: 2,
 	ca: 8,
 	id: "raptor",
@@ -57,7 +57,7 @@ var raptor = {
 	},
 	reset: function(){
 		this.ap = 2;
-		this.hp = 140;
+		this.hp = 165;
 	},
 };
 

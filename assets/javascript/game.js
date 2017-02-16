@@ -16,6 +16,10 @@ var alan = {
 	},
 };
 
+//While they can all win, the spitter can't lose. I'd prefer to have a 
+//working game for you to grade. To that end, rebalancing the game so the 
+//spitter can lose is a project for the future. For now, be aware that 
+//the spitter thing is a known issue.
 var spitter = {
 	name: "Dilophosaurus",
 	hp: 115,
@@ -176,9 +180,9 @@ $(function() { /*According to jQuery's API, this is preferred now.*/
 
 	if(fighters[enemyCharacter].hp<=0){
 		wins++;
+		$("#yeah").html("Wins: " + wins);
 		if (enemyCharacterIndex.length===2) {
 			$("#messages").html("You beat the game!");
-			$("#yeah").html("Wins: " + wins);
 		}
 
 		enemyCharacterIndex.push(enemyCharacter);
